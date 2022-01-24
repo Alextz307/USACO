@@ -18,11 +18,6 @@ void multSelf(int &x, const int &y) {
   x = (int64_t)x * y % mod;
 }
 
-int mult(int x, const int &y) {
-  multSelf(x, y);
-  return x;
-}
-
 int Pow(int x, int n) {
   int ans = 1;
   while (n) {
